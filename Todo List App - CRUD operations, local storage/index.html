@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <main id="root">
+
+    <header>
+      <h1>Todo List</h1>
+    </header>
+
+    <!-- add todo -->
+    <form id="todo-form">
+      <input id="todo-input" type="text" placeholder="Enter some text..." value="" required />
+      <button id="add-todo-btn" aria-label="Add a new todo to the list" type="button">Add Todo</button>
+    </form>
+
+    <!-- todo list -->
+    <ul id="todo-list"></ul>
+
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
