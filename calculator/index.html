@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main id="root">
+      <header>
+        <h1>Calculator</h1>
+      </header>
+
+      
+      <div class="calculator-container">
+        <input id="expression-input" class="expression-input" type="text">
+
+        <button
+          class="cal-btn clear-btn"
+          onclick="handleAddToString('c')"
+          aria-label="Clear"
+          type="button"
+        >
+          C
+        </button>
+
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('7')"
+          aria-label="Number 7"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('8')"
+          aria-label="Number 8"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('9')"
+          aria-label="Number 9"
+          type="button"
+        >
+          9
+        </button>
+
+        <button
+          class="cal-btn operator"
+          onclick="handleAddToString('+')"
+          aria-label="Operator Add"
+          type="button"
+        >
+          +
+        </button>
+
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('4')"
+          aria-label="Number 4"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('5')"
+          aria-label="Number 5"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('6')"
+          aria-label="Number 6"
+          type="button"
+        >
+          6
+        </button>
+
+        <button
+          class="cal-btn operator"
+          onclick="handleAddToString('-')"
+          aria-label="Operator Minus"
+        >
+          -
+        </button>
+
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('1')"
+          aria-label="Number 1"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('2')"
+          aria-label="Number 2"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="cal-btn"
+          onclick="handleAddToString('3')"
+          aria-label="Number 3"
+          type="button"
+        >
+          3
+        </button>
+
+        <button
+          class="cal-btn operator"
+          onclick="handleAddToString('*')"
+          aria-label="add button"
+          aria-label="Operator Multiply"
+        >
+          *
+        </button>
+
+        <button
+          class="cal-btn zero-btn"
+          onclick="handleAddToString('0')"
+          aria-label="Number 0"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="cal-btn operator"
+          onclick="handleAddToString('=')"
+          aria-label="Operator Equals to"
+        >
+          =
+        </button>
+
+        <button
+          class="cal-btn operator"
+          onclick="handleAddToString('/')"
+          aria-label="Operator Division"
+        >
+          /
+        </button>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
