@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main id="root">
+      <header>
+        <h1>Stopwatch</h1>
+      </header>
+    </main>
+
+    <div class="timer">
+      <h1 id="display">00:00:00</h1>
+
+      <div class="btn-group">
+        <button aria-label="Start timer" onclick="startTimer()">start</button>
+        <button aria-label="Stop timer" onclick="stopTimer()">stop</button>
+        <button aria-label="Reset timer" onclick="resetTimer()">reset</button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
